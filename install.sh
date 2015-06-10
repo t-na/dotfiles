@@ -7,5 +7,5 @@ do
 	[[ "$f" == ".git" ]] && continue
 	[[ "$f" == ".DS_Store" ]] && continue
 	echo "$f"
-	ln -s $f ~/$f
+	ln -s $(pwd)/$f ~/$f
 done
