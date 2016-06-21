@@ -61,3 +61,10 @@ alias ls='ls -GAF'
 if [ "$TERM" == xterm ]; then
 export TERM=xterm-color
 fi
+
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PYENV_ROOT/bin:$PATH
+eval "$(pyenv init -)"
+
+alias fcd='source ~/bin/fcd.sh'
+
