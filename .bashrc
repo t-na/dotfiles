@@ -68,3 +68,6 @@ eval "$(pyenv init -)"
 
 alias fcd='source ~/bin/fcd.sh'
 
+# 20160815 Hatena Internship
+eval "$(plenv init -)"
+
