@@ -9,3 +9,5 @@ do
 	echo "$f"
 	ln -s $(pwd)/$f ~/$f
 done
+
+ln -s $(pwd)/zshrc ~/.zprezto/runcoms/zshrc
