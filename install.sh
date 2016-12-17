@@ -2,6 +2,7 @@
 
 cd $(dirname $0)
 
+# for dotfiles
 for f in .??*
 do
 	[[ "$f" == ".git" ]] && continue
@@ -10,4 +11,5 @@ do
 	ln -s $(pwd)/$f ~/$f
 done
 
+# for zprezto
 ln -s $(pwd)/zshrc ~/.zprezto/runcoms/zshrc
