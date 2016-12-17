@@ -20,3 +20,5 @@ source $(brew --prefix nvm)/nvm.sh
 # 20161108 adb
 export PATH=$PATH:/Users/nakamura/Library/Android/sdk/platform-tools
 
+# 20161218 fcd
+alias fcd='source ~/bin/fcd.sh'
