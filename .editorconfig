@@ -15,7 +15,7 @@ indent_size = 4
 
 [*.tex]
 indent_style = space
-indent_size = 2
+indent_size = 4
 
 # Tab indentation (no size specified)
 [*.js]
