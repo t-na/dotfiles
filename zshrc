@@ -33,3 +33,6 @@ export PATH=~/.composer/vendor/bin:$PATH
 
 # 20171021 gcloud
 export PATH=/usr/local/google-cloud-sdk/bin:$PATH
+
+# 20171105 pear
+export PATH=~/pear/bin:$PATH
