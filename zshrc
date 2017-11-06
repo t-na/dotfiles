@@ -27,3 +27,6 @@ alias fcd='source ~/bin/fcd.sh'
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PYENV_ROOT/bin:$PATH
 eval "$(pyenv init -)"
+
+# 20171018 composer
+export PATH=~/.composer/vendor/bin:$PATH
