@@ -30,3 +30,6 @@ eval "$(pyenv init -)"
 
 # 20171018 composer
 export PATH=~/.composer/vendor/bin:$PATH
+
+# 20171021 gcloud
+export PATH=/usr/local/google-cloud-sdk/bin:$PATH
